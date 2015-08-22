@@ -1,0 +1,733 @@
+﻿Der Buildvorgang wurde am 14.01.2015 22:39:39 gestartet.
+     1>Projekt "C:\Users\HKNeuroth\Documents\Visual Studio 2010\Projects\3DRekonstruktion\3DRekonstruktion\3DRekonstruktion.vcxproj" auf Knoten "2", build Ziel(e).
+     1>InitializeBuildStatus:
+         Aktualisieren des Timestamps von "Release\3DRekonstruktion.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files\PCL 1.6.0\3rdParty\Qhull\include" /I"C:\Program Files\PCL 1.6.0\3rdParty\FLANN\include" /I"C:\Program Files\PCL 1.6.0\3rdParty\Eigen\include" /I"C:\Program Files\PCL 1.6.0\3rdParty\Boost\include" /I"C:\Program Files\PCL 1.6.0\3rdParty\VTK\include\vtk-5.8" /I"C:\Program Files\PCL 1.6.0\include\pcl-1.6" /I"C:\Program Files (x86)\opencv\build\include\opencv" /I"C:\Program Files (x86)\opencv\build\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\3DRekonstruktion.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt 3DRekonstruktion.cpp Callibration.cpp Chessboard.cpp Settings.cpp SinglePictureManipulation.cpp stdafx.cpp TwoPictureManipulation.cpp Webcam.cpp
+         3DRekonstruktion.cpp
+         Callibration.cpp
+     1>Callibration.cpp(546): warning C4244: 'Initialisierung': Konvertierung von 'double' in 'float', möglicher Datenverlust
+         Chessboard.cpp
+     1>Chessboard.cpp(39): warning C4018: '>': Konflikt zwischen 'signed' und 'unsigned'
+     1>Chessboard.cpp(76): warning C4390: ';': Leere kontrollierte Anweisung aufgetreten; ist dies beabsichtigt?
+         Settings.cpp
+         SinglePictureManipulation.cpp
+     1>SinglePictureManipulation.cpp(110): warning C4018: '<': Konflikt zwischen 'signed' und 'unsigned'
+     1>SinglePictureManipulation.cpp(138): warning C4018: '<': Konflikt zwischen 'signed' und 'unsigned'
+     1>SinglePictureManipulation.cpp(162): warning C4018: '<': Konflikt zwischen 'signed' und 'unsigned'
+         stdafx.cpp
+     1>stdafx.cpp(5): fatal error C1854: Die beim Anlegen der vorkompilierten Headerdatei in der Objektdatei "c:\users\hkneuroth\documents\visual studio 2010\projects\3drekonstruktion\3drekonstruktion\release\stdafx.obj" ermittelten Informationen können nicht überschrieben werden.
+         TwoPictureManipulation.cpp
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1008): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1009): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1012): warning C4996: 'pcl::SHOT::rf': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1005): Siehe Deklaration von 'pcl::SHOT::rf'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1013): warning C4996: 'pcl::SHOT::descriptor': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1004): Siehe Deklaration von 'pcl::SHOT::descriptor'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1014): warning C4996: 'pcl::SHOT::descriptor': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1004): Siehe Deklaration von 'pcl::SHOT::descriptor'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1014): warning C4996: 'pcl::SHOT::descriptor': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1004): Siehe Deklaration von 'pcl::SHOT::descriptor'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/point_representation.h(445): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/point_representation.h(446): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/point_representation.h(449): warning C4996: 'pcl::DefaultPointRepresentation<pcl::SHOT>': SHOT POINT IS DEPRECATED, USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/point_representation.h(446): Siehe Deklaration von 'pcl::DefaultPointRepresentation<pcl::SHOT>'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/point_representation.h(455): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/point_representation.h(458): warning C4996: 'pcl::SHOT::descriptor': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1004): Siehe Deklaration von 'pcl::SHOT::descriptor'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/point_representation.h(460): warning C4996: 'pcl::DefaultPointRepresentation<pcl::SHOT>::~DefaultPointRepresentation': SHOT POINT IS DEPRECATED, USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/point_representation.h(460): Compiler hat hier "pcl::DefaultPointRepresentation<pcl::SHOT>::~DefaultPointRepresentation" generiert
+                 Diese Diagnose trat in der vom Compiler generierten Funktion "void *pcl::DefaultPointRepresentation<pcl::SHOT>::__delDtor(unsigned int)" auf.
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/point_representation.h(460): warning C4996: 'pcl::DefaultPointRepresentation<pcl::SHOT>::~DefaultPointRepresentation': SHOT POINT IS DEPRECATED, USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/point_representation.h(460): Compiler hat hier "pcl::DefaultPointRepresentation<pcl::SHOT>::~DefaultPointRepresentation" generiert
+                 Diese Diagnose trat in der vom Compiler generierten Funktion "void *pcl::DefaultPointRepresentation<pcl::SHOT>::__delDtor(unsigned int)" auf.
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(348): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(349): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(403): Siehe Verweis auf die Instanziierung der gerade kompilierten Klassen-template "pcl::SHOTEstimation<PointInT,PointNT,pcl::SHOT,PointRFT>".
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(352): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(353): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(354): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(355): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(356): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(357): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(358): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(359): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(360): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(361): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(362): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(363): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(364): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(365): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(366): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(367): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(368): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(369): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(370): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(373): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(378): warning C4996: 'pcl::SHOTEstimation<PointInT,PointNT,pcl::SHOT,PointRFT>': SHOTEstimation<..., pcl::SHOT, ...> IS DEPRECATED, USE SHOTEstimation<..., pcl::SHOT352, ...> INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(349): Siehe Deklaration von 'pcl::SHOTEstimation<PointInT,PointNT,pcl::SHOT,PointRFT>'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(402): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(707): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(708): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(818): Siehe Verweis auf die Instanziierung der gerade kompilierten Klassen-template "pcl::SHOTEstimation<pcl::PointXYZRGBA,PointNT,pcl::SHOT,PointRFT>".
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(711): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(712): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(713): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(714): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(715): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(716): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(717): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(718): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(720): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(721): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(722): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(723): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(724): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(725): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(726): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(727): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(728): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(729): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(730): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(732): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(733): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(741): warning C4996: 'pcl::SHOTEstimation<pcl::PointXYZRGBA,PointNT,pcl::SHOT,PointRFT>': SHOTEstimation<pcl::PointXYZRGBA,...,pcl::SHOT,...> IS DEPRECATED, USE SHOTEstimation<pcl::PointXYZRGBA,...,pcl::SHOT352,...> FOR SHAPE AND SHOTColorEstimation<pcl::PointXYZRGBA,...,pcl::SHOT1344,...> FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(708): Siehe Deklaration von 'pcl::SHOTEstimation<pcl::PointXYZRGBA,PointNT,pcl::SHOT,PointRFT>'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(840): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(893): Siehe Verweis auf die Instanziierung der gerade kompilierten Klassen-template "pcl::SHOTEstimation<pcl::PointXYZRGBA,PointNT,Eigen::MatrixXf,PointRFT>".
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(843): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(844): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(845): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(846): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(847): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(848): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(849): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(850): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(851): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(852): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(853): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(854): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(855): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(856): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(857): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(858): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(859): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(860): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(861): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(862): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(863): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(872): warning C4996: 'pcl::SHOTEstimation<pcl::PointXYZRGBA,PointNT,Eigen::MatrixXf,PointRFT>': SHOTEstimation<pcl::PointXYZRGBA,...,Eigen::MatrixXf,...> IS DEPRECATED, USE SHOTColorEstimation<pcl::PointXYZRGBA,...,Eigen::MatrixXf,...> FOR SHAPE AND SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(840): Siehe Deklaration von 'pcl::SHOTEstimation<pcl::PointXYZRGBA,PointNT,Eigen::MatrixXf,PointRFT>'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(892): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot_omp.h(194): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot_omp.h(195): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot_omp.h(254): Siehe Verweis auf die Instanziierung der gerade kompilierten Klassen-template "pcl::SHOTEstimationOMP<PointInT,PointNT,pcl::SHOT,PointRFT>".
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot_omp.h(198): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot_omp.h(199): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot_omp.h(200): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot_omp.h(201): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot_omp.h(202): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot_omp.h(203): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot_omp.h(204): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot_omp.h(205): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot_omp.h(206): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot_omp.h(207): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot_omp.h(209): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot_omp.h(210): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot_omp.h(211): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot_omp.h(212): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot_omp.h(213): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot_omp.h(214): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot_omp.h(215): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot_omp.h(217): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot_omp.h(218): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot_omp.h(221): warning C4996: 'pcl::SHOTEstimationOMP<PointInT,PointNT,pcl::SHOT,PointRFT>': SHOTEstimationOMP<..., pcl::SHOT, ...> IS DEPRECATED, USE SHOTEstimationOMP<..., pcl::SHOT352, ...> INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot_omp.h(195): Siehe Deklaration von 'pcl::SHOTEstimationOMP<PointInT,PointNT,pcl::SHOT,PointRFT>'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot_omp.h(258): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot_omp.h(259): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot_omp.h(321): Siehe Verweis auf die Instanziierung der gerade kompilierten Klassen-template "pcl::SHOTEstimationOMP<pcl::PointXYZRGBA,PointNT,pcl::SHOT,PointRFT>".
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot_omp.h(262): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot_omp.h(263): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot_omp.h(264): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot_omp.h(265): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot_omp.h(266): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot_omp.h(267): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot_omp.h(268): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot_omp.h(269): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot_omp.h(270): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot_omp.h(272): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot_omp.h(273): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot_omp.h(274): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot_omp.h(275): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot_omp.h(276): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot_omp.h(277): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot_omp.h(278): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot_omp.h(279): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot_omp.h(280): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot_omp.h(281): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot_omp.h(283): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot_omp.h(284): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003): Siehe Deklaration von 'pcl::SHOT'
+     1>C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot_omp.h(287): warning C4996: 'pcl::SHOTEstimationOMP<pcl::PointXYZRGBA,PointNT,pcl::SHOT,PointRFT>': SHOTEstimationOMP<pcl::PointXYZRGBA,...,pcl::SHOT,...> IS DEPRECATED, USE SHOTEstimationOMP<pcl::PointXYZRGBA,...,pcl::SHOT352,...> FOR SHAPE AND SHOTColorEstimationOMP<pcl::PointXYZRGBA,...,pcl::SHOT1344,...> FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot_omp.h(259): Siehe Deklaration von 'pcl::SHOTEstimationOMP<pcl::PointXYZRGBA,PointNT,pcl::SHOT,PointRFT>'
+     1>TwoPictureManipulation.cpp(377): warning C4101: 'value': Unreferenzierte lokale Variable
+     1>TwoPictureManipulation.cpp(470): warning C4101: 'value': Unreferenzierte lokale Variable
+     1>TwoPictureManipulation.cpp(546): warning C4018: '<': Konflikt zwischen 'signed' und 'unsigned'
+     1>TwoPictureManipulation.cpp(549): warning C4018: '<': Konflikt zwischen 'signed' und 'unsigned'
+     1>C:\Program Files\PCL 1.6.0\3rdParty\Boost\include\boost/bind/bind.hpp(586): warning C4244: 'Argument': Konvertierung von 'double' in 'int', möglicher Datenverlust
+                 C:\Program Files\PCL 1.6.0\3rdParty\Boost\include\boost/bind/bind_template.hpp(174): Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-template "R boost::_bi::list6<A1,A2,A3,A4,A5,A6>::operator ()<int,F,boost::_bi::list5<const pcl::PointCloud<PointT> &,unsigned int &,double &,std::vector<_Ty> &,std::vector<float> &>>(boost::_bi::type<T>,F &,A &,long)".
+                 with
+                 [
+                     R=int,
+                     A1=boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<pcl::PointXYZRGBA>>>,
+                     A2=boost::arg<1>,
+                     A3=boost::arg<2>,
+                     A4=boost::arg<3>,
+                     A5=boost::arg<4>,
+                     A6=boost::arg<5>,
+                     F=boost::_mfi::cmf5<int,pcl::search::Search<pcl::PointXYZRGBA>,const pcl::PointCloud<pcl::PointXYZRGBA> &,int,int,std::vector<int> &,std::vector<float> &>,
+                     PointT=pcl::PointXYZRGBA,
+                     _Ty=int,
+                     T=int,
+                     A=boost::_bi::list5<const pcl::PointCloud<pcl::PointXYZRGBA> &,size_t &,double &,std::vector<int> &,std::vector<float> &>
+                 ]
+                 C:\Program Files\PCL 1.6.0\3rdParty\Boost\include\boost/function/function_template.hpp(132): Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-template "int boost::_bi::bind_t<R,F,L>::operator ()<const pcl::PointCloud<PointT>,T1,T2,std::vector<_Ty>,std::vector<float>>(A1 &,A2 &,A3 &,A4 &,A5 &)".
+                 with
+                 [
+                     R=int,
+                     F=boost::_mfi::cmf5<int,pcl::search::Search<pcl::PointXYZRGBA>,const pcl::PointCloud<pcl::PointXYZRGBA> &,int,int,std::vector<int> &,std::vector<float> &>,
+                     L=boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<pcl::PointXYZRGBA>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>,
+                     PointT=pcl::PointXYZRGBA,
+                     T1=size_t,
+                     T2=double,
+                     _Ty=int,
+                     A1=const pcl::PointCloud<pcl::PointXYZRGBA>,
+                     A2=size_t,
+                     A3=double,
+                     A4=std::vector<int>,
+                     A5=std::vector<float>
+                 ]
+                 C:\Program Files\PCL 1.6.0\3rdParty\Boost\include\boost/function/function_template.hpp(126): Bei der Kompilierung der  Klassen-template der int boost::detail::function::function_obj_invoker5<FunctionObj,R,T0,T1,T2,T3,T4>::invoke(boost::detail::function::function_buffer &,T0,T1,T2,T3,T4)-Memberfunktion
+                 with
+                 [
+                     FunctionObj=boost::_bi::bind_t<int,boost::_mfi::cmf5<int,pcl::search::Search<pcl::PointXYZRGBA>,const pcl::PointCloud<pcl::PointXYZRGBA> &,int,int,std::vector<int> &,std::vector<float> &>,boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<pcl::PointXYZRGBA>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>>,
+                     R=int,
+                     T0=const pcl::PointCloud<pcl::PointXYZRGBA> &,
+                     T1=size_t,
+                     T2=double,
+                     T3=std::vector<int> &,
+                     T4=std::vector<float> &
+                 ]
+                 C:\Program Files\PCL 1.6.0\3rdParty\Boost\include\boost/function/function_template.hpp(907): Siehe Verweis auf die Instanziierung der gerade kompilierten Klassen-template "boost::detail::function::function_obj_invoker5<FunctionObj,R,T0,T1,T2,T3,T4>".
+                 with
+                 [
+                     FunctionObj=boost::_bi::bind_t<int,boost::_mfi::cmf5<int,pcl::search::Search<pcl::PointXYZRGBA>,const pcl::PointCloud<pcl::PointXYZRGBA> &,int,int,std::vector<int> &,std::vector<float> &>,boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<pcl::PointXYZRGBA>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>>,
+                     R=int,
+                     T0=const pcl::PointCloud<pcl::PointXYZRGBA> &,
+                     T1=size_t,
+                     T2=double,
+                     T3=std::vector<int> &,
+                     T4=std::vector<float> &
+                 ]
+                 C:\Program Files\PCL 1.6.0\3rdParty\Boost\include\boost/function/function_template.hpp(722): Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-template "void boost::function5<R,T0,T1,T2,T3,T4>::assign_to<Functor>(Functor)".
+                 with
+                 [
+                     R=int,
+                     T0=const pcl::PointCloud<pcl::PointXYZRGBA> &,
+                     T1=size_t,
+                     T2=double,
+                     T3=std::vector<int> &,
+                     T4=std::vector<float> &,
+                     Functor=boost::_bi::bind_t<int,boost::_mfi::cmf5<int,pcl::search::Search<pcl::PointXYZRGBA>,const pcl::PointCloud<pcl::PointXYZRGBA> &,int,int,std::vector<int> &,std::vector<float> &>,boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<pcl::PointXYZRGBA>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>>
+                 ]
+                 C:\Program Files\PCL 1.6.0\3rdParty\Boost\include\boost/function/function_template.hpp(1043): Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-template "boost::function5<R,T0,T1,T2,T3,T4>::function5<boost::_bi::bind_t<R,F,L>>(Functor,int)".
+                 with
+                 [
+                     R=int,
+                     T0=const pcl::PointCloud<pcl::PointXYZRGBA> &,
+                     T1=size_t,
+                     T2=double,
+                     T3=std::vector<int> &,
+                     T4=std::vector<float> &,
+                     F=boost::_mfi::cmf5<int,pcl::search::Search<pcl::PointXYZRGBA>,const pcl::PointCloud<pcl::PointXYZRGBA> &,int,int,std::vector<int> &,std::vector<float> &>,
+                     L=boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<pcl::PointXYZRGBA>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>,
+                     Functor=boost::_bi::bind_t<int,boost::_mfi::cmf5<int,pcl::search::Search<pcl::PointXYZRGBA>,const pcl::PointCloud<pcl::PointXYZRGBA> &,int,int,std::vector<int> &,std::vector<float> &>,boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<pcl::PointXYZRGBA>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>>
+                 ]
+                 C:\Program Files\PCL 1.6.0\3rdParty\Boost\include\boost/function/function_template.hpp(1083): Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-template "boost::function<Signature>::function<boost::_bi::bind_t<R,F,L>>(Functor,int)".
+                 with
+                 [
+                     Signature=int (const pcl::PointCloud<pcl::PointXYZRGBA> &,size_t,double,std::vector<int> &,std::vector<float> &),
+                     R=int,
+                     F=boost::_mfi::cmf5<int,pcl::search::Search<pcl::PointXYZRGBA>,const pcl::PointCloud<pcl::PointXYZRGBA> &,int,int,std::vector<int> &,std::vector<float> &>,
+                     L=boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<pcl::PointXYZRGBA>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>,
+                     Functor=boost::_bi::bind_t<int,boost::_mfi::cmf5<int,pcl::search::Search<pcl::PointXYZRGBA>,const pcl::PointCloud<pcl::PointXYZRGBA> &,int,int,std::vector<int> &,std::vector<float> &>,boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<pcl::PointXYZRGBA>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>>
+                 ]
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/impl/feature.hpp(159): Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-template "boost::function<Signature> &boost::function<Signature>::operator =<boost::_bi::bind_t<R,F,L>>(Functor)".
+                 with
+                 [
+                     Signature=int (const pcl::PointCloud<pcl::PointXYZRGBA> &,size_t,double,std::vector<int> &,std::vector<float> &),
+                     R=int,
+                     F=boost::_mfi::cmf5<int,pcl::search::Search<pcl::PointXYZRGBA>,const pcl::PointCloud<pcl::PointXYZRGBA> &,int,int,std::vector<int> &,std::vector<float> &>,
+                     L=boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<pcl::PointXYZRGBA>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>,
+                     Functor=boost::_bi::bind_t<int,boost::_mfi::cmf5<int,pcl::search::Search<pcl::PointXYZRGBA>,const pcl::PointCloud<pcl::PointXYZRGBA> &,int,int,std::vector<int> &,std::vector<float> &>,boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<pcl::PointXYZRGBA>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>>
+                 ]
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/impl/feature.hpp(93): Bei der Kompilierung der  Klassen-template der bool pcl::Feature<PointInT,PointOutT>::initCompute(void)-Memberfunktion
+                 with
+                 [
+                     PointInT=pcl::PointXYZRGBA,
+                     PointOutT=pcl::SHOT
+                 ]
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(732): Siehe Verweis auf die Instanziierung der gerade kompilierten Klassen-template "pcl::Feature<PointInT,PointOutT>".
+                 with
+                 [
+                     PointInT=pcl::PointXYZRGBA,
+                     PointOutT=pcl::SHOT
+                 ]
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/shot.h(818): Siehe Verweis auf die Instanziierung der gerade kompilierten Klassen-template "pcl::SHOTEstimation<pcl::PointXYZRGBA,PointNT,pcl::SHOT,PointRFT>".
+     1>C:\Program Files\PCL 1.6.0\3rdParty\Boost\include\boost/bind/bind.hpp(586): warning C4244: 'Argument': Konvertierung von 'double' in 'int', möglicher Datenverlust
+                 C:\Program Files\PCL 1.6.0\3rdParty\Boost\include\boost/bind/bind_template.hpp(174): Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-template "R boost::_bi::list6<A1,A2,A3,A4,A5,A6>::operator ()<int,F,boost::_bi::list5<const pcl::PointCloud<PointT> &,unsigned int &,double &,std::vector<_Ty> &,std::vector<float> &>>(boost::_bi::type<T>,F &,A &,long)".
+                 with
+                 [
+                     R=int,
+                     A1=boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<PointType>>>,
+                     A2=boost::arg<1>,
+                     A3=boost::arg<2>,
+                     A4=boost::arg<3>,
+                     A5=boost::arg<4>,
+                     A6=boost::arg<5>,
+                     F=boost::_mfi::cmf5<int,pcl::search::Search<PointType>,const pcl::PointCloud<pcl::PointXYZRGB> &,int,int,std::vector<int> &,std::vector<float> &>,
+                     PointT=pcl::PointXYZRGB,
+                     _Ty=int,
+                     T=int,
+                     A=boost::_bi::list5<const pcl::PointCloud<pcl::PointXYZRGB> &,size_t &,double &,std::vector<int> &,std::vector<float> &>
+                 ]
+                 C:\Program Files\PCL 1.6.0\3rdParty\Boost\include\boost/function/function_template.hpp(132): Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-template "int boost::_bi::bind_t<R,F,L>::operator ()<const pcl::PointCloud<PointT>,T1,T2,std::vector<_Ty>,std::vector<float>>(A1 &,A2 &,A3 &,A4 &,A5 &)".
+                 with
+                 [
+                     R=int,
+                     F=boost::_mfi::cmf5<int,pcl::search::Search<PointType>,const pcl::PointCloud<pcl::PointXYZRGB> &,int,int,std::vector<int> &,std::vector<float> &>,
+                     L=boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<PointType>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>,
+                     PointT=pcl::PointXYZRGB,
+                     T1=size_t,
+                     T2=double,
+                     _Ty=int,
+                     A1=const pcl::PointCloud<pcl::PointXYZRGB>,
+                     A2=size_t,
+                     A3=double,
+                     A4=std::vector<int>,
+                     A5=std::vector<float>
+                 ]
+                 C:\Program Files\PCL 1.6.0\3rdParty\Boost\include\boost/function/function_template.hpp(126): Bei der Kompilierung der  Klassen-template der int boost::detail::function::function_obj_invoker5<FunctionObj,R,T0,T1,T2,T3,T4>::invoke(boost::detail::function::function_buffer &,T0,T1,T2,T3,T4)-Memberfunktion
+                 with
+                 [
+                     FunctionObj=boost::_bi::bind_t<int,boost::_mfi::cmf5<int,pcl::search::Search<PointType>,const pcl::PointCloud<pcl::PointXYZRGB> &,int,int,std::vector<int> &,std::vector<float> &>,boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<PointType>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>>,
+                     R=int,
+                     T0=const pcl::PointCloud<pcl::PointXYZRGB> &,
+                     T1=size_t,
+                     T2=double,
+                     T3=std::vector<int> &,
+                     T4=std::vector<float> &
+                 ]
+                 C:\Program Files\PCL 1.6.0\3rdParty\Boost\include\boost/function/function_template.hpp(907): Siehe Verweis auf die Instanziierung der gerade kompilierten Klassen-template "boost::detail::function::function_obj_invoker5<FunctionObj,R,T0,T1,T2,T3,T4>".
+                 with
+                 [
+                     FunctionObj=boost::_bi::bind_t<int,boost::_mfi::cmf5<int,pcl::search::Search<PointType>,const pcl::PointCloud<pcl::PointXYZRGB> &,int,int,std::vector<int> &,std::vector<float> &>,boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<PointType>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>>,
+                     R=int,
+                     T0=const pcl::PointCloud<pcl::PointXYZRGB> &,
+                     T1=size_t,
+                     T2=double,
+                     T3=std::vector<int> &,
+                     T4=std::vector<float> &
+                 ]
+                 C:\Program Files\PCL 1.6.0\3rdParty\Boost\include\boost/function/function_template.hpp(722): Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-template "void boost::function5<R,T0,T1,T2,T3,T4>::assign_to<Functor>(Functor)".
+                 with
+                 [
+                     R=int,
+                     T0=const pcl::PointCloud<pcl::PointXYZRGB> &,
+                     T1=size_t,
+                     T2=double,
+                     T3=std::vector<int> &,
+                     T4=std::vector<float> &,
+                     Functor=boost::_bi::bind_t<int,boost::_mfi::cmf5<int,pcl::search::Search<PointType>,const pcl::PointCloud<pcl::PointXYZRGB> &,int,int,std::vector<int> &,std::vector<float> &>,boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<PointType>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>>
+                 ]
+                 C:\Program Files\PCL 1.6.0\3rdParty\Boost\include\boost/function/function_template.hpp(1043): Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-template "boost::function5<R,T0,T1,T2,T3,T4>::function5<boost::_bi::bind_t<R,F,L>>(Functor,int)".
+                 with
+                 [
+                     R=int,
+                     T0=const pcl::PointCloud<pcl::PointXYZRGB> &,
+                     T1=size_t,
+                     T2=double,
+                     T3=std::vector<int> &,
+                     T4=std::vector<float> &,
+                     F=boost::_mfi::cmf5<int,pcl::search::Search<PointType>,const pcl::PointCloud<pcl::PointXYZRGB> &,int,int,std::vector<int> &,std::vector<float> &>,
+                     L=boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<PointType>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>,
+                     Functor=boost::_bi::bind_t<int,boost::_mfi::cmf5<int,pcl::search::Search<PointType>,const pcl::PointCloud<pcl::PointXYZRGB> &,int,int,std::vector<int> &,std::vector<float> &>,boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<PointType>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>>
+                 ]
+                 C:\Program Files\PCL 1.6.0\3rdParty\Boost\include\boost/function/function_template.hpp(1083): Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-template "boost::function<Signature>::function<boost::_bi::bind_t<R,F,L>>(Functor,int)".
+                 with
+                 [
+                     Signature=int (const pcl::PointCloud<pcl::PointXYZRGB> &,size_t,double,std::vector<int> &,std::vector<float> &),
+                     R=int,
+                     F=boost::_mfi::cmf5<int,pcl::search::Search<PointType>,const pcl::PointCloud<pcl::PointXYZRGB> &,int,int,std::vector<int> &,std::vector<float> &>,
+                     L=boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<PointType>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>,
+                     Functor=boost::_bi::bind_t<int,boost::_mfi::cmf5<int,pcl::search::Search<PointType>,const pcl::PointCloud<pcl::PointXYZRGB> &,int,int,std::vector<int> &,std::vector<float> &>,boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<PointType>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>>
+                 ]
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/impl/feature.hpp(159): Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-template "boost::function<Signature> &boost::function<Signature>::operator =<boost::_bi::bind_t<R,F,L>>(Functor)".
+                 with
+                 [
+                     Signature=int (const pcl::PointCloud<pcl::PointXYZRGB> &,size_t,double,std::vector<int> &,std::vector<float> &),
+                     R=int,
+                     F=boost::_mfi::cmf5<int,pcl::search::Search<PointType>,const pcl::PointCloud<pcl::PointXYZRGB> &,int,int,std::vector<int> &,std::vector<float> &>,
+                     L=boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<PointType>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>,
+                     Functor=boost::_bi::bind_t<int,boost::_mfi::cmf5<int,pcl::search::Search<PointType>,const pcl::PointCloud<pcl::PointXYZRGB> &,int,int,std::vector<int> &,std::vector<float> &>,boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<PointType>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>>
+                 ]
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/impl/feature.hpp(93): Bei der Kompilierung der  Klassen-template der bool pcl::Feature<PointInT,PointOutT>::initCompute(void)-Memberfunktion
+                 with
+                 [
+                     PointInT=PointType,
+                     PointOutT=NormalType
+                 ]
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/normal_3d.h(194): Siehe Verweis auf die Instanziierung der gerade kompilierten Klassen-template "pcl::Feature<PointInT,PointOutT>".
+                 with
+                 [
+                     PointInT=PointType,
+                     PointOutT=NormalType
+                 ]
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/features/normal_3d_omp.h(54): Siehe Verweis auf die Instanziierung der gerade kompilierten Klassen-template "pcl::NormalEstimation<PointInT,PointOutT>".
+                 with
+                 [
+                     PointInT=PointType,
+                     PointOutT=NormalType
+                 ]
+                 TwoPictureManipulation.cpp(627): Siehe Verweis auf die Instanziierung der gerade kompilierten Klassen-template "pcl::NormalEstimationOMP<PointInT,PointOutT>".
+                 with
+                 [
+                     PointInT=PointType,
+                     PointOutT=NormalType
+                 ]
+     1>C:\Program Files\PCL 1.6.0\3rdParty\Boost\include\boost/bind/bind.hpp(515): warning C4244: 'Argument': Konvertierung von 'double' in 'int', möglicher Datenverlust
+                 C:\Program Files\PCL 1.6.0\3rdParty\Boost\include\boost/bind/bind_template.hpp(145): Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-template "R boost::_bi::list5<A1,A2,A3,A4,A5>::operator ()<int,F,boost::_bi::list4<int &,double &,std::vector<_Ty> &,std::vector<float> &>>(boost::_bi::type<T>,F &,A &,long)".
+                 with
+                 [
+                     R=int,
+                     A1=boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<PointType>>>,
+                     A2=boost::arg<1>,
+                     A3=boost::arg<2>,
+                     A4=boost::arg<3>,
+                     A5=boost::arg<4>,
+                     F=boost::_mfi::cmf4<int,pcl::search::Search<PointType>,int,int,std::vector<int> &,std::vector<float> &>,
+                     _Ty=int,
+                     T=int,
+                     A=boost::_bi::list4<int &,double &,std::vector<int> &,std::vector<float> &>
+                 ]
+                 C:\Program Files\PCL 1.6.0\3rdParty\Boost\include\boost/function/function_template.hpp(132): Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-template "int boost::_bi::bind_t<R,F,L>::operator ()<T0,T1,std::vector<_Ty>,std::vector<float>>(A1 &,A2 &,A3 &,A4 &)".
+                 with
+                 [
+                     R=int,
+                     F=boost::_mfi::cmf4<int,pcl::search::Search<PointType>,int,int,std::vector<int> &,std::vector<float> &>,
+                     L=boost::_bi::list5<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<PointType>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>>,
+                     T0=int,
+                     T1=double,
+                     _Ty=int,
+                     A1=int,
+                     A2=double,
+                     A3=std::vector<int>,
+                     A4=std::vector<float>
+                 ]
+                 C:\Program Files\PCL 1.6.0\3rdParty\Boost\include\boost/function/function_template.hpp(126): Bei der Kompilierung der  Klassen-template der int boost::detail::function::function_obj_invoker4<FunctionObj,R,T0,T1,T2,T3>::invoke(boost::detail::function::function_buffer &,T0,T1,T2,T3)-Memberfunktion
+                 with
+                 [
+                     FunctionObj=boost::_bi::bind_t<int,boost::_mfi::cmf4<int,pcl::search::Search<PointType>,int,int,std::vector<int> &,std::vector<float> &>,boost::_bi::list5<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<PointType>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>>>,
+                     R=int,
+                     T0=int,
+                     T1=double,
+                     T2=std::vector<int> &,
+                     T3=std::vector<float> &
+                 ]
+                 C:\Program Files\PCL 1.6.0\3rdParty\Boost\include\boost/function/function_template.hpp(907): Siehe Verweis auf die Instanziierung der gerade kompilierten Klassen-template "boost::detail::function::function_obj_invoker4<FunctionObj,R,T0,T1,T2,T3>".
+                 with
+                 [
+                     FunctionObj=boost::_bi::bind_t<int,boost::_mfi::cmf4<int,pcl::search::Search<PointType>,int,int,std::vector<int> &,std::vector<float> &>,boost::_bi::list5<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<PointType>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>>>,
+                     R=int,
+                     T0=int,
+                     T1=double,
+                     T2=std::vector<int> &,
+                     T3=std::vector<float> &
+                 ]
+                 C:\Program Files\PCL 1.6.0\3rdParty\Boost\include\boost/function/function_template.hpp(722): Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-template "void boost::function4<R,T0,T1,T2,T3>::assign_to<Functor>(Functor)".
+                 with
+                 [
+                     R=int,
+                     T0=int,
+                     T1=double,
+                     T2=std::vector<int> &,
+                     T3=std::vector<float> &,
+                     Functor=boost::_bi::bind_t<int,boost::_mfi::cmf4<int,pcl::search::Search<PointType>,int,int,std::vector<int> &,std::vector<float> &>,boost::_bi::list5<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<PointType>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>>>
+                 ]
+                 C:\Program Files\PCL 1.6.0\3rdParty\Boost\include\boost/function/function_template.hpp(1043): Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-template "boost::function4<R,T0,T1,T2,T3>::function4<boost::_bi::bind_t<R,F,L>>(Functor,int)".
+                 with
+                 [
+                     R=int,
+                     T0=int,
+                     T1=double,
+                     T2=std::vector<int> &,
+                     T3=std::vector<float> &,
+                     F=boost::_mfi::cmf4<int,pcl::search::Search<PointType>,int,int,std::vector<int> &,std::vector<float> &>,
+                     L=boost::_bi::list5<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<PointType>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>>,
+                     Functor=boost::_bi::bind_t<int,boost::_mfi::cmf4<int,pcl::search::Search<PointType>,int,int,std::vector<int> &,std::vector<float> &>,boost::_bi::list5<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<PointType>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>>>
+                 ]
+                 C:\Program Files\PCL 1.6.0\3rdParty\Boost\include\boost/function/function_template.hpp(1083): Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-template "boost::function<Signature>::function<boost::_bi::bind_t<R,F,L>>(Functor,int)".
+                 with
+                 [
+                     Signature=int (int,double,std::vector<int> &,std::vector<float> &),
+                     R=int,
+                     F=boost::_mfi::cmf4<int,pcl::search::Search<PointType>,int,int,std::vector<int> &,std::vector<float> &>,
+                     L=boost::_bi::list5<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<PointType>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>>,
+                     Functor=boost::_bi::bind_t<int,boost::_mfi::cmf4<int,pcl::search::Search<PointType>,int,int,std::vector<int> &,std::vector<float> &>,boost::_bi::list5<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<PointType>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>>>
+                 ]
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/keypoints/impl/keypoint.hpp(100): Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-template "boost::function<Signature> &boost::function<Signature>::operator =<boost::_bi::bind_t<R,F,L>>(Functor)".
+                 with
+                 [
+                     Signature=int (int,double,std::vector<int> &,std::vector<float> &),
+                     R=int,
+                     F=boost::_mfi::cmf4<int,pcl::search::Search<PointType>,int,int,std::vector<int> &,std::vector<float> &>,
+                     L=boost::_bi::list5<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<PointType>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>>,
+                     Functor=boost::_bi::bind_t<int,boost::_mfi::cmf4<int,pcl::search::Search<PointType>,int,int,std::vector<int> &,std::vector<float> &>,boost::_bi::list5<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<PointType>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>>>
+                 ]
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/keypoints/impl/keypoint.hpp(44): Bei der Kompilierung der  Klassen-template der bool pcl::Keypoint<PointInT,PointOutT>::initCompute(void)-Memberfunktion
+                 with
+                 [
+                     PointInT=PointType,
+                     PointOutT=int
+                 ]
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/keypoints/uniform_sampling.h(62): Siehe Verweis auf die Instanziierung der gerade kompilierten Klassen-template "pcl::Keypoint<PointInT,PointOutT>".
+                 with
+                 [
+                     PointInT=PointType,
+                     PointOutT=int
+                 ]
+                 TwoPictureManipulation.cpp(638): Siehe Verweis auf die Instanziierung der gerade kompilierten Klassen-template "pcl::UniformSampling<PointInT>".
+                 with
+                 [
+                     PointInT=PointType
+                 ]
+     1>C:\Program Files\PCL 1.6.0\3rdParty\Boost\include\boost/bind/bind.hpp(586): warning C4244: 'Argument': Konvertierung von 'double' in 'int', möglicher Datenverlust
+                 C:\Program Files\PCL 1.6.0\3rdParty\Boost\include\boost/bind/bind_template.hpp(174): Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-template "R boost::_bi::list6<A1,A2,A3,A4,A5,A6>::operator ()<int,F,boost::_bi::list5<const pcl::PointCloud<PointT> &,int &,double &,std::vector<_Ty> &,std::vector<float> &>>(boost::_bi::type<T>,F &,A &,long)".
+                 with
+                 [
+                     R=int,
+                     A1=boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<PointType>>>,
+                     A2=boost::arg<1>,
+                     A3=boost::arg<2>,
+                     A4=boost::arg<3>,
+                     A5=boost::arg<4>,
+                     A6=boost::arg<5>,
+                     F=boost::_mfi::cmf5<int,pcl::search::Search<PointType>,const pcl::PointCloud<pcl::PointXYZRGB> &,int,int,std::vector<int> &,std::vector<float> &>,
+                     PointT=pcl::PointXYZRGB,
+                     _Ty=int,
+                     T=int,
+                     A=boost::_bi::list5<const pcl::PointCloud<pcl::PointXYZRGB> &,int &,double &,std::vector<int> &,std::vector<float> &>
+                 ]
+                 C:\Program Files\PCL 1.6.0\3rdParty\Boost\include\boost/function/function_template.hpp(132): Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-template "int boost::_bi::bind_t<R,F,L>::operator ()<const pcl::PointCloud<PointT>,T1,T2,std::vector<_Ty>,std::vector<float>>(A1 &,A2 &,A3 &,A4 &,A5 &)".
+                 with
+                 [
+                     R=int,
+                     F=boost::_mfi::cmf5<int,pcl::search::Search<PointType>,const pcl::PointCloud<pcl::PointXYZRGB> &,int,int,std::vector<int> &,std::vector<float> &>,
+                     L=boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<PointType>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>,
+                     PointT=pcl::PointXYZRGB,
+                     T1=int,
+                     T2=double,
+                     _Ty=int,
+                     A1=const pcl::PointCloud<pcl::PointXYZRGB>,
+                     A2=int,
+                     A3=double,
+                     A4=std::vector<int>,
+                     A5=std::vector<float>
+                 ]
+                 C:\Program Files\PCL 1.6.0\3rdParty\Boost\include\boost/function/function_template.hpp(126): Bei der Kompilierung der  Klassen-template der int boost::detail::function::function_obj_invoker5<FunctionObj,R,T0,T1,T2,T3,T4>::invoke(boost::detail::function::function_buffer &,T0,T1,T2,T3,T4)-Memberfunktion
+                 with
+                 [
+                     FunctionObj=boost::_bi::bind_t<int,boost::_mfi::cmf5<int,pcl::search::Search<PointType>,const pcl::PointCloud<pcl::PointXYZRGB> &,int,int,std::vector<int> &,std::vector<float> &>,boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<PointType>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>>,
+                     R=int,
+                     T0=const pcl::PointCloud<pcl::PointXYZRGB> &,
+                     T1=int,
+                     T2=double,
+                     T3=std::vector<int> &,
+                     T4=std::vector<float> &
+                 ]
+                 C:\Program Files\PCL 1.6.0\3rdParty\Boost\include\boost/function/function_template.hpp(907): Siehe Verweis auf die Instanziierung der gerade kompilierten Klassen-template "boost::detail::function::function_obj_invoker5<FunctionObj,R,T0,T1,T2,T3,T4>".
+                 with
+                 [
+                     FunctionObj=boost::_bi::bind_t<int,boost::_mfi::cmf5<int,pcl::search::Search<PointType>,const pcl::PointCloud<pcl::PointXYZRGB> &,int,int,std::vector<int> &,std::vector<float> &>,boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<PointType>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>>,
+                     R=int,
+                     T0=const pcl::PointCloud<pcl::PointXYZRGB> &,
+                     T1=int,
+                     T2=double,
+                     T3=std::vector<int> &,
+                     T4=std::vector<float> &
+                 ]
+                 C:\Program Files\PCL 1.6.0\3rdParty\Boost\include\boost/function/function_template.hpp(722): Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-template "void boost::function5<R,T0,T1,T2,T3,T4>::assign_to<Functor>(Functor)".
+                 with
+                 [
+                     R=int,
+                     T0=const pcl::PointCloud<pcl::PointXYZRGB> &,
+                     T1=int,
+                     T2=double,
+                     T3=std::vector<int> &,
+                     T4=std::vector<float> &,
+                     Functor=boost::_bi::bind_t<int,boost::_mfi::cmf5<int,pcl::search::Search<PointType>,const pcl::PointCloud<pcl::PointXYZRGB> &,int,int,std::vector<int> &,std::vector<float> &>,boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<PointType>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>>
+                 ]
+                 C:\Program Files\PCL 1.6.0\3rdParty\Boost\include\boost/function/function_template.hpp(1043): Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-template "boost::function5<R,T0,T1,T2,T3,T4>::function5<boost::_bi::bind_t<R,F,L>>(Functor,int)".
+                 with
+                 [
+                     R=int,
+                     T0=const pcl::PointCloud<pcl::PointXYZRGB> &,
+                     T1=int,
+                     T2=double,
+                     T3=std::vector<int> &,
+                     T4=std::vector<float> &,
+                     F=boost::_mfi::cmf5<int,pcl::search::Search<PointType>,const pcl::PointCloud<pcl::PointXYZRGB> &,int,int,std::vector<int> &,std::vector<float> &>,
+                     L=boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<PointType>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>,
+                     Functor=boost::_bi::bind_t<int,boost::_mfi::cmf5<int,pcl::search::Search<PointType>,const pcl::PointCloud<pcl::PointXYZRGB> &,int,int,std::vector<int> &,std::vector<float> &>,boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<PointType>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>>
+                 ]
+                 C:\Program Files\PCL 1.6.0\3rdParty\Boost\include\boost/function/function_template.hpp(1083): Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-template "boost::function<Signature>::function<boost::_bi::bind_t<R,F,L>>(Functor,int)".
+                 with
+                 [
+                     Signature=int (const pcl::PointCloud<pcl::PointXYZRGB> &,int,double,std::vector<int> &,std::vector<float> &),
+                     R=int,
+                     F=boost::_mfi::cmf5<int,pcl::search::Search<PointType>,const pcl::PointCloud<pcl::PointXYZRGB> &,int,int,std::vector<int> &,std::vector<float> &>,
+                     L=boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<PointType>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>,
+                     Functor=boost::_bi::bind_t<int,boost::_mfi::cmf5<int,pcl::search::Search<PointType>,const pcl::PointCloud<pcl::PointXYZRGB> &,int,int,std::vector<int> &,std::vector<float> &>,boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<PointType>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>>
+                 ]
+                 C:\Program Files\PCL 1.6.0\include\pcl-1.6\pcl/keypoints/impl/keypoint.hpp(106): Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-template "boost::function<Signature> &boost::function<Signature>::operator =<boost::_bi::bind_t<R,F,L>>(Functor)".
+                 with
+                 [
+                     Signature=int (const pcl::PointCloud<pcl::PointXYZRGB> &,int,double,std::vector<int> &,std::vector<float> &),
+                     R=int,
+                     F=boost::_mfi::cmf5<int,pcl::search::Search<PointType>,const pcl::PointCloud<pcl::PointXYZRGB> &,int,int,std::vector<int> &,std::vector<float> &>,
+                     L=boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<PointType>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>,
+                     Functor=boost::_bi::bind_t<int,boost::_mfi::cmf5<int,pcl::search::Search<PointType>,const pcl::PointCloud<pcl::PointXYZRGB> &,int,int,std::vector<int> &,std::vector<float> &>,boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<PointType>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>>
+                 ]
+         Webcam.cpp
+     1>Die Erstellung des Projekts "C:\Users\HKNeuroth\Documents\Visual Studio 2010\Projects\3DRekonstruktion\3DRekonstruktion\3DRekonstruktion.vcxproj" ist abgeschlossen, build Ziel(e) -- FEHLER.
+
+Fehler beim Erstellen
+
+Verstrichene Zeit 00:00:45.49

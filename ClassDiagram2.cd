@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Chessboard">
+    <Position X="0.5" Y="0.5" Width="3" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="Chessboard::Perspective" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Chessboard.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAACAEAABQAAAAGgIAAAAAAAAAAAAAEBA=</HashCode>
+      <FileName>Chessboard.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Menue">
+    <Position X="4" Y="6" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEgABAAAAAAAACAAAAAAAAAEAAAAAEAAAAAAA=</HashCode>
+      <FileName>Menue.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="model3d">
+    <Position X="7.5" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>QAgAQAgAAJIIlAAQgAgAAAoACAYAAJYAAAACAAAAAAA=</HashCode>
+      <FileName>model3d.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Settings">
+    <Position X="11" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAQCQAAQAAAAIAAAIAAAIAAAEBQAAQAwAAAAEIAkwA=</HashCode>
+      <FileName>Settings.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SinglePictureManipulation">
+    <Position X="4" Y="3.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAgAAAEAAAAAAEAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>SinglePictureManipulation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TwoPictureManipulation">
+    <Position X="4" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AIEAAACAAAAAQAAQAEAAAAAAAgAAAAAAAAAQAgAAAAI=</HashCode>
+      <FileName>TwoPictureManipulation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webcam">
+    <Position X="0.5" Y="5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAJAAAAEAIEAgAAAJBIAAAgEAAAAFAAABAAAAAAAAEA=</HashCode>
+      <FileName>Webcam.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

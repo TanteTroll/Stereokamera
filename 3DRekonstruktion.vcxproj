@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3636ADBC-2A77-469C-875B-47C93BE69F18}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>My3DRekonstruktion</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;EIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files\PCL 1.6.0\3rdParty\FLANN\include;C:\Program Files\PCL 1.6.0\3rdParty\Qhull\include;C:\Program Files\PCL 1.6.0\3rdParty\Eigen\include;C:\Program Files\PCL 1.6.0\3rdParty\Boost\include;C:\Program Files\PCL 1.6.0\3rdParty\VTK\include\vtk-5.8;C:\Program Files\PCL 1.6.0\include\pcl-1.6;C:\Program Files %28x86%29\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <EnablePREfast>false</EnablePREfast>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Program Files\PCL 1.6.0\3rdParty\FLANN\lib;C:\Program Files\PCL 1.6.0\3rdParty\VTK\lib\vtk-5.8;C:\Program Files\PCL 1.6.0\3rdParty\Qhull\lib;C:\Program Files\PCL 1.6.0\3rdParty\Boost\lib;C:\Program Files\PCL 1.6.0\lib;C:\Program Files %28x86%29\opencv\build\x64\vc10\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>flann_s-gd.lib;flann_s.lib;flann.lib;flann-gd.lib;flann_cpp_s.lib;flann_cpp_s-gd.lib;hdf5.lib;hdf5_cpp.lib;pcl_io_debug.lib;pcl_common_debug.lib;pcl_recognition_debug.lib;pcl_features_debug.lib;pcl_filters_debug.lib;pcl_io_ply_debug.lib;pcl_kdtree_debug.lib;pcl_keypoints_debug.lib;pcl_octree_debug.lib;pcl_registration_debug.lib;pcl_sample_consensus_debug.lib;pcl_search_debug.lib;pcl_segmentation_debug.lib;pcl_visualization_debug.lib;pcl_surface_debug.lib;pcl_tracking_debug.lib;opencv_core249d.lib;opencv_highgui249d.lib;opencv_ml249d.lib;opencv_video249d.lib;opencv_features2d249d.lib;opencv_calib3d249d.lib;opencv_objdetect249d.lib;opencv_contrib249d.lib;opencv_legacy249d.lib;opencv_flann249d.lib;opencv_nonfree249d.lib;vtksys.lib;vtktiff.lib;vtkViews.lib;vtkVolumeRendering.lib;vtkWidgets.lib;vtkzlib.lib;libboost_system-vc100-mt-gd-1_50.lib;libboost_filesystem-vc100-mt-gd-1_50.lib;libboost_thread-vc100-mt-gd-1_50.lib;libboost_date_time-vc100-mt-gd-1_50.lib;libboost_iostreams-vc100-mt-gd-1_50.lib;vtkRendering-gd.lib;vtkalglib-gd.lib;vtkCharts-gd.lib;vtkCommon-gd.lib;vtkDICOMParser-gd.lib;vtkexoIIc-gd.lib;vtkexpat-gd.lib;vtkFiltering-gd.lib;vtkfreetype-gd.lib;vtkftgl-gd.lib;vtkGenericFiltering-gd.lib;vtkGeovis-gd.lib;vtkGraphics-gd.lib;vtkhdf5-gd.lib;vtkHybrid-gd.lib;vtkImaging-gd.lib;vtkInfovis-gd.lib;vtkIO-gd.lib;vtkjpeg-gd.lib;vtklibxml2-gd.lib;vtkmetaio-gd.lib;vtkNetCDF_cxx-gd.lib;vtkNetCDF-gd.lib;vtkpng-gd.lib;vtkproj4-gd.lib;vtksqlite-gd.lib;vtksys-gd.lib;vtktiff-gd.lib;vtkverdict-gd.lib;vtkViews-gd.lib;vtkVolumeRendering-gd.lib;vtkWidgets-gd.lib;vtkzlib-gd.lib;OpenGL32.Lib;opencv_imgproc249d.lib;boost_filesystem-vc100-mt-1_50.lib;libboost_filesystem-vc100-mt-1_50.lib;boost_filesystem-vc100-mt-gd-1_50.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files\PCL 1.6.0\3rdParty\Qhull\include;C:\Program Files\PCL 1.6.0\3rdParty\FLANN\include;C:\Program Files\PCL 1.6.0\3rdParty\Eigen\include;C:\Program Files\PCL 1.6.0\3rdParty\Boost\include;C:\Program Files\PCL 1.6.0\3rdParty\VTK\include\vtk-5.8;C:\Program Files\PCL 1.6.0\include\pcl-1.6;C:\Program Files %28x86%29\opencv\build\include\opencv;C:\Program Files %28x86%29\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>opencv_gpu249.lib;opencv_core249.lib;opencv_imgproc249.lib;opencv_highgui249.lib;opencv_ml249.lib;opencv_video249.lib;opencv_features2d249.lib;opencv_calib3d249.lib;opencv_objdetect249.lib;opencv_contrib249.lib;opencv_legacy249.lib;opencv_flann249.lib;opencv_nonfree249.lib;pcl_common_release.lib;pcl_apps_release.lib;pcl_features_release.lib;pcl_filters_release.lib;pcl_io_release.lib;pcl_io_ply_release.lib;pcl_kdtree_release.lib;pcl_keypoints_release.lib;pcl_octree_release.lib;pcl_registration_release.lib;pcl_sample_consensus_release.lib;pcl_search_release.lib;pcl_segmentation_release.lib;pcl_surface_release.lib;pcl_tracking_release.lib;pcl_visualization_release.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Program Files\PCL 1.6.0\3rdParty\VTK\lib;C:\Program Files\PCL 1.6.0\3rdParty\VTK\lib\vtk-5.8;C:\Program Files\PCL 1.6.0\3rdParty\Qhull\lib;C:\Program Files\PCL 1.6.0\3rdParty\FLANN\lib;C:\Program Files\PCL 1.6.0\3rdParty\Boost\lib;C:\Program Files\PCL 1.6.0\lib;C:\Program Files %28x86%29\opencv\build\x64\vc10\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram2.cd" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\OpenCV_CameraCalibration\Callibration.h" />
+    <ClInclude Include="Callibration.h" />
+    <ClInclude Include="Chessboard.h" />
+    <ClInclude Include="Menue.h" />
+    <ClInclude Include="model3d.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Settings.h" />
+    <ClInclude Include="SinglePictureManipulation.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TwoPictureManipulation.h" />
+    <ClInclude Include="Webcam.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="3DRekonstruktion.cpp" />
+    <ClCompile Include="Callibration.cpp" />
+    <ClCompile Include="Chessboard.cpp" />
+    <ClCompile Include="Menue.cpp" />
+    <ClCompile Include="model3d.cpp" />
+    <ClCompile Include="Settings.cpp" />
+    <ClCompile Include="SinglePictureManipulation.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="TwoPictureManipulation.cpp" />
+    <ClCompile Include="Webcam.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="3DRekonstruktion.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
